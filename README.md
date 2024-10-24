@@ -53,15 +53,14 @@ Unlike ResNet, DenseNet201 utilizes dense blocks where each layer receives input
 - Accuracy (test data): `93.62%`
 
 
-- ####  Accuracy across
- magnifications.:
+- ####  Accuracy across magnifications.:
     - ![Accuracy curve](https://github.com/BhagwaniVishi/Breast-Cancer-Detection/blob/main/Images/accuracy_plot.png
 )
 
 - #### Composite performance summary showing the best Accuracy, GMean, and AUC scores for different models with and without augmentation.:
     - ![Performance summary](https://github.com/BhagwaniVishi/Breast-Cancer-Detection/blob/main/Images/performance_summary.png)
 
-- #### Plotting layers using `keras plot_model` library:
+- #### Proposed method architecture.
     
     -![Flowchart](https://github.com/BhagwaniVishi/Breast-Cancer-Detection/blob/main/Images/flowchart.png)
 
