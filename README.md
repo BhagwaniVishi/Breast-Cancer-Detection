@@ -41,6 +41,8 @@ A 50-layer network that implements residual learning to facilitate training of d
 Unlike ResNet, DenseNet201 utilizes dense blocks where each layer receives inputs from all preceding layers. This architecture promotes efficient gradient flow and feature reuse.
 
 #### Breast cancer images example
+ - ![Benign](https://github.com/BhagwaniVishi/Breast-Cancer-Detection/blob/main/Images/benign.png)
+  - ![Malignant](https://github.com/BhagwaniVishi/Breast-Cancer-Detection/blob/main/Images/malignant.png)
 
 
 
@@ -49,17 +51,19 @@ Unlike ResNet, DenseNet201 utilizes dense blocks where each layer receives input
 - Precision: `100%`
 - Recall: `100%`
 - Accuracy (test data): `93.62%`
-- Accuracy (validation data): `84.003%`
 
-- #### Accuracy and Validation Accuracy curve over the time:
-    - ![Accuracy curve](https://github.com/kajaveaniruddha/Malware-Classification-using-CNN/assets/66174998/6f4dd393-459e-424b-8810-e0225a8a4a7c)
 
-- #### Loss and Validation Loss curve over the time:
-    - ![Loss curve](https://github.com/kajaveaniruddha/Malware-Classification-using-CNN/assets/66174998/8da8592a-c178-4255-a99b-6c7dfc7152ae)
+- ####  Accuracy across
+ magnifications.:
+    - ![Accuracy curve](https://github.com/BhagwaniVishi/Breast-Cancer-Detection/blob/main/Images/accuracy_plot.png
+)
+
+- #### Composite performance summary showing the best Accuracy, GMean, and AUC scores for different models with and without augmentation.:
+    - ![Performance summary](https://github.com/BhagwaniVishi/Breast-Cancer-Detection/blob/main/Images/performance_summary.png)
 
 - #### Plotting layers using `keras plot_model` library:
     
-    -![Layers](https://github.com/kajaveaniruddha/Malware-Classification-using-CNN/assets/66174998/6d4bc6dd-7428-430c-ba19-3605882f9829)
+    -![Flowchart](https://github.com/BhagwaniVishi/Breast-Cancer-Detection/blob/main/Images/flowchart.png)
 
 
 ## APPLICATIONS
