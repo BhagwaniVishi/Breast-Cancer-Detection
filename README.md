@@ -50,7 +50,7 @@ Unlike ResNet, DenseNet201 utilizes dense blocks where each layer receives input
 
 - Precision: `100%`
 - Recall: `100%`
-- Accuracy (test data): `93.62%`
+- Accuracy (test data): `94.9%`
 
 
 - ####  Accuracy across magnifications.:
